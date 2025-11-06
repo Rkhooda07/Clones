@@ -1,0 +1,122 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid rgb(39, 38, 38);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 224px;
+  padding: 22px 10px 10px 10px;
+}
+
+.sidebar button:hover {
+  border-radius: 7px;
+  background-color: rgb(26, 26, 26);
+  transition: background-color 0.30s;
+}
+
+.sidebar p {
+  margin: 0;
+}
+
+.instagram-logo {
+  width: 110px;
+  cursor: pointer;
+  margin-top: 8px;
+  margin-left: 10px;
+  margin-bottom: 28px;
+}
+
+.insta-logo {
+  display: none;
+}
+
+.icons {
+  height: 35px;
+}
+
+.home-button strong {
+  margin-top: 5px;
+}
+
+.header button,
+.footer button {
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 50px;
+  width: 220px;
+  margin-bottom: 7px;
+  cursor: pointer;
+}
+
+.footer button p {
+  color: white;
+  font-size: 16px;
+}
+
+.footer-sidebar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  border-top: 1px solid rgb(54, 54, 54);
+  background-color: black;
+  display: none;
+}
+
+.footer-sidebar img {
+  height: 34px;
+}
+
+.footer-pfp {
+  height: 25px !important;
+}
+
+@media (max-width: 1165px) {
+  .instagram-logo {
+    display: none;
+  }
+  .insta-logo {
+    display: block;
+    height: 50px;
+    margin-bottom: 45px;
+  }
+  .sidebar p {
+    display: none;
+  }
+  .sidebar {
+    width: 52px;
+  }
+  .flexbox {
+    margin-left: 70px !important;
+  }
+}
+
+@media (max-width: 1064px) {
+  .right-section {
+    display: none;
+  }
+}
+
+@media (max-width: 766px) {
+  .sidebar {
+    display: none;
+  }
+  .flexbox {
+    margin-left: 0px !important;
+  }
+  .footer-sidebar {
+    display: flex;
+  }
+}
