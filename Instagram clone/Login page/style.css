@@ -1,0 +1,176 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+
+.flexbox {
+  min-height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.img {
+  width: 370px;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  height: 550px;
+  width: 350px;
+}
+
+.credentials-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgb(60, 60, 60);
+  padding: 36px 10px 20px 10px;
+  margin-bottom: 10px;
+}
+
+.insta-logo {
+  width: 190px;
+  margin-bottom: 26px;
+}
+
+.input-box {
+  width: 220px;
+  height: 25px;
+  border: 1px solid rgb(80, 80, 80);
+  border-radius: 2px;
+  margin-bottom: 7px;
+  background-color: rgb(25, 22, 22);
+  padding: 5px 40px 5px 10px;
+}
+
+.input-box::placeholder {
+  font-size: 12px;
+  color: rgb(182, 182, 182);
+}
+
+.login-button {
+  height: 33px;
+  width: 270px;
+  background-color: rgba(47, 141, 255, 0.7);
+  color: rgb(199, 199, 199);
+  border: none;
+  border-radius: 7px;
+  margin-top: 5px;
+  margin-bottom: 24px;
+}
+
+.hr-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.hr-container span {
+  color: rgb(188, 188, 188);
+  font-size: 13px;
+  margin: 0 15px;
+}
+
+hr {
+  border: 1px solid rgb(34, 33, 33);
+  width: 115px;
+}
+
+.fb-link-container {
+  margin-bottom: 12px;
+}
+
+.fb-link-container a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(47, 141, 255);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.fb-link-container a:hover {
+  color: white;
+}
+
+.fb-logo {
+  width: 30px;
+  margin-right: 3px;
+}
+
+.forgot-link-container {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+.sign-up-container {
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgb(60, 60, 60);
+  padding: 20px 40px 20px 40px;
+  margin-bottom: 10px;
+}
+
+.sign-up-container span {
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.sign-up-container a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(47, 141, 255);
+}
+
+.ad-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  padding: 10px 40px 20px 40px;
+}
+
+.ad-container p {
+  font-size: 14px;
+  margin: 0;
+  margin-bottom: 4px;
+}
+
+.ad-img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.ad-logo {
+  width: 150px;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  width: 100%;
+  line-height: 10px;
+}
+
+footer p {
+  font-size: 13px;
+  line-height: 25px;
+  word-spacing: 10px;
+  color: rgb(142, 142, 142);
+}
+
+@media (max-width: 880px) {
+  .left-section {
+    display: none;
+  }
+}
