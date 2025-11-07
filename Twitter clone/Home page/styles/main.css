@@ -1,0 +1,313 @@
+.home-page {
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  width: 990px;
+  margin-top: 47px;
+}
+
+.left-side {
+  width: 600px;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid rgb(48, 51, 54);
+}
+
+.add-tweet {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  padding: 18px 10px 10px 10px;
+  border-bottom: 1px solid rgb(48, 51, 54);
+}
+
+.input-tweet {
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 28px;
+}
+
+.icons-container img {
+  height: 25px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.post-tweet-button {
+  position: absolute;
+  right: 16px;
+  bottom: 10px;
+  background-color: rgb(120, 122, 122);
+  height: 35px;
+  width: 65px;
+  font-size: 15px;
+  border: none;
+  border-radius: 20px;
+}
+
+.tweet {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgb(48, 51, 54);
+}
+
+.tweet-header {
+  display: flex;
+  align-items: start;
+  padding: 10px;
+}
+
+.tweet-pfp {
+  height: 50px;
+  margin-right: 5px;
+}
+
+.tweet-name {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.tweet-name strong {
+  color: white;
+}
+
+.tweet-name p {
+  font-size: 16px;
+  color: rgb(97, 101, 105);
+}
+
+.tweet-line {
+  font-size: 20px !important;
+}
+
+.tweet-left-part {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: auto;
+}
+
+.tweet-grok-icon {
+  height: 25px;
+}
+
+.tweet-ellipsis {
+  color: rgb(97, 101, 105);
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.tweet-content {
+  height: 590px;
+  margin-left: 65px;
+}
+
+.tweet2-content-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 66px;
+  margin-top: -30px;
+  margin-bottom: 10px;
+  gap: 24px;
+}
+
+.tweet2-content {
+  width: 500px;
+}
+
+.tweet2-content span {
+  color: rgb(74, 153, 233);
+}
+
+.tweet-stats {
+  display: flex;
+  gap: 75px;
+  padding: 2px 10px 15px 60px;
+}
+
+.tweet-icons-container {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.tweet-icons-container p {
+  font-size: 12px;
+  color: rgb(97, 101, 105);
+}
+
+.tweet-stats img {
+  height: 20px;
+}
+
+.tweet-right-side {
+  display: flex;
+  gap: 12px;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  width: 388px;
+}
+
+.subscribe-card {
+  margin-top: 14px;
+  margin-left: 30px;
+  margin-right: 12px;
+  margin-bottom: 14px;
+  border: 1px solid rgb(48, 51, 54);
+  border-radius: 15px;
+  padding: 10px 15px 15px 15px;
+}
+
+.head-banner {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.subtitle-banner {
+  color: rgb(215, 216, 217);
+  margin-bottom: 10px;
+}
+
+.subscribe-button {
+  background-color: rgb(74, 153, 233);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 18px;
+  font-size: 15px;
+}
+
+.happening-card {
+  margin-left: 30px;
+  margin-right: 12px;
+  border-radius: 15px;
+  border: 1px solid rgb(48, 51, 54);
+  padding: 12px 10px 20px 20px;
+}
+
+.happening-header {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.khloe-container {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.happening-pfp {
+  height: 85px;
+  margin-right: 10px;
+  margin-left: -5px;
+}
+
+.khloe-container p {
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 8px;
+}
+
+.live {
+  color: rgb(114, 118, 122);
+  margin-top: 5px !important;
+  font-size: 12px !important;
+}
+
+.trending-container {
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.genre,
+.posts {
+  font-size: 14px;
+  color: rgb(105, 108, 112);  
+  margin-bottom: 4px;
+}
+
+.topic {
+  margin-bottom: 5px;
+}
+
+.trending-ellipsis {
+  position: absolute;
+  top: -5px;
+  right: 1px;
+  color: rgb(114, 118, 122);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.show-more {
+  font-size: 16px;
+  color: rgb(74, 153, 233);
+}
+
+.follow-card {
+  border: 1px solid rgb(48, 51, 54);
+  border-radius: 15px;
+  margin-top: 16px;
+  margin-left: 30px;
+  margin-right: 12px;
+  margin-bottom: 10px;
+  padding: 10px 10px 16px 16px;
+}
+
+.who-follow {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.follow-account {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 28px;
+}
+
+.follow-pfp {
+  height: 40px;
+}
+
+.name {
+  margin-bottom: 4px;
+}
+
+.follow-button {
+  margin-left: auto;
+  height: 33px;
+  width: 80px;
+  border: none;
+  border-radius: 20px;
+}
+
+.tac {
+  color: gray;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-left: 30px;
+  /* word-spacing: 10px; */
+}
+
+.grok-button {
+  position: fixed;
+  bottom: 15px;
+  right: 28px;
+  border: 1px solid whitesmoke;
+}
+
+.grok-button-icon {
+  height: 40px;
+}
