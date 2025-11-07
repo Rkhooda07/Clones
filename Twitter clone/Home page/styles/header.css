@@ -1,0 +1,77 @@
+.header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 471px;
+  right: 0;
+  z-index: 100;
+}
+
+.for-you-button-container {
+  display: flex;
+  flex-direction: column;
+} 
+
+.for-you-button,
+.following-button {
+  background-color: black;
+  color: white;
+  width: 300px;
+  height: 55px;
+  border: none;
+  border-bottom: 1px solid rgb(48, 51, 54);
+}
+
+.for-you-button p {
+  font-size: 14px;
+  margin-top: 18px;
+  margin-bottom: 14px;
+}
+
+.for-you-button hr {
+  width: 50px;
+  border: 2px solid rgb(74, 153, 233);
+  border-radius: 4px;
+}
+
+.following-button {
+  color: rgb(114, 118, 122);
+  font-size: 16px;
+  font-weight: 500;
+  border-right: 1px solid rgb(48, 51, 54);
+  margin-right: 28px;
+}
+
+.search-box-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(48, 51, 54);
+  border-radius: 30px;
+  height: 42px;
+  width: 348px;
+  overflow: hidden;
+}
+
+.search-box-icon {
+  height: 25px;
+  margin-left: 10px;
+}
+
+.search-bar {
+  background-color: black;
+  border: none;
+  color: white;
+  caret-color: rgb(74, 153, 234);
+  width: 310px;
+  height: 38px;
+}
+
+.search-bar:focus {
+  outline: none;
+  border: none;
+}
+
+.search-bar::placeholder {
+  font-size: 14px;
+}
