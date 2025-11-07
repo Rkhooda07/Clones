@@ -1,0 +1,190 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+
+.flexbox {
+  min-height: 900px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 80px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  max-width: 500px;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.title-container {
+  line-height: 33px;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 68px;
+}
+
+.subtitle {
+  font-size: 34px;
+}
+
+.google-button,
+.apple-button,
+.create-button,
+.sign-in-button {
+  width: 300px;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.google-icon {
+  width: 30px;
+  margin-right: 2px;
+}
+
+.google-button p {
+  font-weight: bold;
+  color: rgb(83, 83, 83);
+}
+
+.apple-button {
+  transition: opacity 0.15s;
+}
+
+.apple-button:hover {
+  opacity: 0.9;
+}
+
+.apple-button p {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.apple-icon {
+  width: 16px;
+  margin-right: 7px;
+}
+
+.hr-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  margin-bottom: 10px;
+}
+
+.hr-container hr {
+  border: 0.1px solid rgb(58, 58, 58);
+  width: 120px;
+}
+
+.hr-container span {
+  color: white;
+  font-size: 15px;
+}
+
+.create-button {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  transition: background-color 0.15s;
+}
+
+.create-button:hover {
+  background-color: rgb(18, 136, 214);
+}
+
+.terms {
+  color: rgb(141, 141, 141);
+  font-size: 10.5px;
+  width: 300px;
+  margin-top: -2px;
+}
+
+.terms span {
+  color: rgb(29, 155, 240);
+}
+
+.already-title {
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.sign-in-button {
+  background-color: black;
+  border-style: solid;
+  border-color: rgb(83, 100, 113);
+  border-width: 1px;
+  color: rgb(29, 155, 240);
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 5px;
+  transition: background-color 0.15s;
+}
+
+.sign-in-button:hover {
+  background-color: rgba(37, 139, 255, 0.1);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer p {
+  word-spacing: 10px;
+  font-size: 12px;
+  color: gray;
+}
+
+@media (max-width: 1440px) {
+  .main-content {
+    margin-right: 25px;
+    flex-shrink: 0;
+  }
+}
+
+@media (max-width: 990px) {
+  .flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    margin-left: 60px;
+  }
+  .logo-container {
+    margin: -60px 0px -100px -470px;
+  }
+  .logo {
+    width: 60px;
+  }
+  .main-content {
+    width: 500px;
+  }
+  .title {
+    line-height: 90px;
+  }
+}
