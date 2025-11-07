@@ -1,0 +1,82 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+  height: 98vh;
+  width: 265px;
+  gap: 30px;
+  margin-top: 0px;
+  border-right: 1px solid rgb(48, 51, 54);
+}
+
+.twitter-logo {
+  margin-top: 5px;
+}
+
+.sidebar button:not(.post-button):not(.footer-sidebar) {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  gap: 15px;
+  border: none;
+}
+
+.sidebar button p:not(.post-button):not(.footer-sidebar) {
+  font-size: 20px;
+}
+
+.sidebar button img:not(.footer-sidebar) {
+  height: 27px;
+}
+
+.post-button {
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  height: 55px;
+  width: 240px;
+  border-radius: 40px;
+}
+
+.footer-sidebar {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  border: none;
+  margin-top: 24px;
+  gap: 15px;
+}
+
+.my-pfp {
+  height: 38px !important;
+}
+
+.name-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.my-name {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  gap: 4px;
+}
+
+.lock-icon {
+  height: 23px !important;
+}
+
+.username {
+  font-size: 15px;
+  color: rgb(114, 118, 122);
+}
+
+.ellipsis {
+  margin-left: auto;
+  margin-right: 15px;
+  font-size: 20px;
+}
